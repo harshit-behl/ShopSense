@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { motion } from 'framer-motion';
 import { formatPrice, calculateDiscount } from '../utils/formatPrice.js';
 
 export default function ProductCard({ product, isBestDeal }) {
